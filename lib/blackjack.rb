@@ -50,6 +50,10 @@ def invalid_command
 #####################################################
 
 def runner
-  # code runner here
+  until card_total >= 21
+  welcome
+  initial_round
+  hit?
+  display_card_total
 end
     
