@@ -51,10 +51,10 @@ def invalid_command
 
 def runner
   until card_total >= 21 do
-  welcome
-  initial_round
-  hit?
+    welcome
+    initial_round
+    hit?
+  end
   display_card_total
-end
 end
     
